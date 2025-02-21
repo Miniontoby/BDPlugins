@@ -17,7 +17,7 @@ const MessageModule
     = getModule(MessageFilter, { defaultExport: false });
 
 const Pin: React.ComponentClass<{width: number}>
-    = getModule(m => m?.toString?.()?.includes?.('M22 12L12.101 2.10101L10.686'), { searchExports: true });
+    = getModule(m => m?.toString?.()?.includes?.('M19.38 11.38a3 3 0 0 0 4.24 '), { searchExports: true });
 // ^^^ This is really stupid, I should just make my own pin SVG.
 
 export = class PinIcon {
