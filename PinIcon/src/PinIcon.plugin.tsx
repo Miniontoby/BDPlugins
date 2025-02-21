@@ -64,7 +64,7 @@ export = class PinIcon {
                         }, []);
                         return (
                             <span className="plugin_PinIcon" key="PinIcon" ref={ref}>
-                                <Pin width={18}/>
+                                {Pin ? <Pin width={18}/> : null}
                             </span>
                         );
                     })()
